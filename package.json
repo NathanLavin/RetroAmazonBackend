@@ -1,0 +1,32 @@
+{
+  "name": "retroamazonbackend",
+  "version": "1.0.0",
+  "description": "We are building a MERN full stack mock amazon.com from the early days",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-dev": "nodemon -r dotenv/config server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanLavin/RetroAmazonBackend.git"
+  },
+  "keywords": [
+    "Fun",
+    "Class",
+    "Project"
+  ],
+  "author": "Nathan Lavin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanLavin/RetroAmazonBackend/issues"
+  },
+  "homepage": "https://github.com/NathanLavin/RetroAmazonBackend#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
